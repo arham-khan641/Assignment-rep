@@ -1,0 +1,21 @@
+img{
+    width: 50px;
+    height: 100px;
+    margin:250px 50px;
+}
+#myCol { 
+            background:green; 
+        } 
+        table { 
+            color:white; 
+        } 
+        
+        td { 
+            padding:10px; 
+        } 
+
+   button{
+    margin-left: 300px;
+    
+            
+   }

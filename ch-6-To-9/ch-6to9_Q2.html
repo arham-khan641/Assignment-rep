@@ -1,0 +1,21 @@
+<!-- Arham khan Roll No: WM12788 -->
+
+<!DOCTYPE html>
+<head lang="en">
+<title>Task</title>
+</head>
+<body>
+    <script>
+       var a=2;
+        var b=1;
+        var result = --a - --b + ++b + b--;
+        //===Explanation of Steps===
+        // --a means now value of a=1
+        // --a - --b means now value of a=1 & b=0. So, 1-0=1 here
+        // --a - --b + ++b means in previous step b=0 now after b++ it becomes 1. So now total value is 2
+        //--a - --b + ++b + b-- means previous equation value is 2 now add 1 to b due to previous value after that it decrease bcoz of b--. So, Final result is 3
+        document.write('a is '+a+'<br/>');
+        document.write('b is '+b+'<br/>');
+        document.write('Result is '+result);
+    </script>
+</body>

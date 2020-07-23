@@ -1,0 +1,28 @@
+<!-- Saad Khan Roll No: WM9801 -->
+
+<!DOCTYPE html>
+<head lang="en">
+<title>Task</title>
+</head>
+<body>
+    <script>
+       var Subject1=prompt('Enter your Subject 1 Name:');
+     var Subject2=prompt('Enter your Subject 2 Name::');
+     var Subject3=prompt('Enter your Subject 3 Name::');
+     var ObtainedMarks1=prompt('Enter your Obtained Marks of '+Subject1+' ');
+     var ObtainedMarks2=prompt('Enter your Obtained Marks of '+Subject2+' ');
+     var ObtainedMarks3=prompt('Enter your Obtained Marks of' +Subject3+' ');
+     var TotalEachSubject=100;
+     var percentage1=(ObtainedMarks1*100)/TotalEachSubject;
+     var percentage2=(ObtainedMarks2*100)/TotalEachSubject;
+     var percentage3=(ObtainedMarks3*100)/TotalEachSubject;
+     var totaSubjectMarks=TotalEachSubject*3;
+     var totalObtained=""(ObtainedMarks1+ObtainedMarks2+ObtainedMarks3);
+     var FinalPercentage=((percentage1+percentage2+percentage3)/3);
+     document.write("<h1>Subject &nbsp;Total Marks&nbsp;Obtained Marks&nbsp; Percentage </h1><br/>");
+     document.write(Subject1+" &nbsp; &nbsp; &nbsp;"+TotalEachSubject+"&nbsp; &nbsp;&nbsp;"+ObtainedMarks1+"&nbsp; &nbsp;&nbsp;"+percentage1+"%<br/>");
+     document.write(Subject2+"&nbsp;&nbsp;&nbsp;&nbsp;"+TotalEachSubject+"&nbsp;&nbsp;&nbsp;"+ObtainedMarks2+"&nbsp;&nbsp;&nbsp;"+percentage2+"%<br/>");
+     document.write(Subject3+"&nbsp;&nbsp;&nbsp;&nbsp;"+TotalEachSubject+"&nbsp;&nbsp;&nbsp;"+ObtainedMarks3+"&nbsp;&nbsp;&nbsp;"+percentage3+"%<br/>");
+     document.write("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+totaSubjectMarks+"&nbsp;&nbsp;&nbsp;"+totalObtained+"&nbsp;&nbsp;&nbsp;"+FinalPercentage+"%<br/>");
+    </script>
+</body>
